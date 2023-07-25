@@ -3,12 +3,22 @@
 
 body{
     font-family: arial, helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-style: italic;
-    font-style: inherit;
-    background-image: url(imagens/bouquet.jpg);
-    background-size: cover;
+    background: #fff;
+
     }
+
+   
+    h1{
+        color:#d8458a;
+        font-size:x-large ;
+        text-align: center;
+        font-size: 40px;
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }                
     
     .menu{
         list-style:none;
@@ -35,7 +45,7 @@ body{
             }
 
     .menu li ul{
-            position:absolute;
+            position:absolute; 
             top:25px;
             left:0;
             background-color:#fff;
@@ -49,12 +59,16 @@ body{
             display:block;
             width:150px;
             }
-            
-            h1{
-                color:#d8458a;
-                font-size:x-large ;
-                text-align: center;
-                font-size: 35px;
-                font-style: italic;
-                font-family: Georgia, 'Times New Roman', Times, serif;
-            }                
+
+
+    .bouquet{
+        width: 700px;
+        height: 700px;
+    }
+
+    footer{
+        font-size: 20px;
+        text-align: center;
+        color:#d8458a;
+        
+    }
